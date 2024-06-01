@@ -16,6 +16,7 @@ int main() {
 
     do {
         cout << "Enter the number of columns: ";
+    
         cin >> cols;
     } while (cols < 1 || cols > max_col);
 
